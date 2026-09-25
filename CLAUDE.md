@@ -18,6 +18,7 @@ There are no tests or linters.
 - `index.html` — the whole public site: a single page (hero, experience, education, toolkit) whose content mirrors `data/JulianFritsch_CV.pdf`. Keep the two in sync.
 - `_layouts/default.html` — header nav (anchors into the home page + CV PDF), footer; loads Google Sans Flex / Google Sans Code from Google Fonts.
 - `css/main.css` — single stylesheet; colors are CSS variables with a `prefers-color-scheme: dark` override. Visual direction is minimal, Google DeepMind-like (whitespace, light large headings, mono uppercase labels, pill links) — avoid generic template/AI-looking styles. Copy should be short and understated, not salesy; LinkedIn headline is "Machine Learning Engineer | PhD | Production AI & MLOps".
+- `tools/make_images.py` — regenerates `data/social-card.png` (LinkedIn/link preview, referenced by the `og:image` tags in the layout) and `favicon.ico` / `apple-touch-icon.png`. Run `uv run --with pillow python tools/make_images.py`; its text constants must be updated when the headline changes.
 - `data/` — CV PDF and portrait. Windows/Dropbox metadata files there are gitignored.
 
 ## Gotchas

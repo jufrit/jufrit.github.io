@@ -249,3 +249,8 @@ main {
 .more { margin: 2rem 0 0; font-size: 0.95rem; }
 .more a { color: var(--accent); text-decoration: none; }
 .more a:hover { text-decoration: underline; }
+
+.org a { text-decoration-color: var(--rule); text-underline-offset: 0.2em; }
+.org a:hover { text-decoration-color: currentColor; }
+.entry li a { text-decoration-color: var(--rule); text-underline-offset: 0.2em; }
+.entry li a:hover { text-decoration-color: currentColor; }
