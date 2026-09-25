@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.title != site.name %}{{ page.title }} · {% endif %}{{ site.name }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@300..700&family=Google+Sans+Code&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="/">{{ site.name }}</a>
+    <nav>
+      <a href="/#experience">Experience</a>
+      <a href="/#education">Education</a>
+      <a href="/#publications">Publications</a>
+      <a href="/data/JulianFritsch_CV.pdf">CV</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <span>© {{ site.time | date: "%Y" }} {{ site.name }}</span>
+    <span>Lausanne, Switzerland</span>
+  </footer>
+</body>
+</html>

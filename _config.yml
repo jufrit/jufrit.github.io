@@ -1,0 +1,7 @@
+name: Julian Fritsch
+description: Machine learning engineer in Lausanne. Production AI and MLOps.
+markdown: kramdown
+exclude:
+  - CLAUDE.md
+  - README.md
+  - data/*.tex.txt

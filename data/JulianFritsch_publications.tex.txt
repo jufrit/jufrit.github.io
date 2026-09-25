@@ -1,0 +1,38 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+
+\begin{document}
+
+\begin{center}
+    \Large\textbf{Publications -- Julian Fritsch}
+\end{center}
+\vspace{0.5cm}
+
+\subsection*{PhD Thesis}
+\begin{enumerate}[label={[\arabic*]}]
+    \item J. D. Fritsch. ``Novel methods for detection and analysis of atypical aspects in speech.'' PhD Thesis, \textit{EPFL}, 2023.
+\end{enumerate}
+
+\subsection*{Peer-Reviewed Journals and Conferences}
+\begin{enumerate}[label={[\arabic*]}, resume]
+    \item J. C. Vásquez-Correa, J. Fritsch, J. R. Orozco-Arroyave, E. N\"oth, M. Magimai.-Doss. ``On Modeling Glottal Source Information for Phonation Assessment in Parkinson’s Disease.'' \textit{In Proc. Interspeech 2021}, pp. 26-30.
+    
+    \item E. Villatoro-Tello, S. P. Dubagunta, J. Fritsch, G. Ramírez-de-la Rosa, P. Motlicek, M. Magimai.-Doss. ``Late fusion of the available lexicon and raw waveform-based acoustic modeling for depression and dementia recognition.'' \textit{In Proc. Interspeech 2021}, pp. 1927-1931.
+    
+    \item J. Fritsch, M. Magimai.-Doss. ``Utterance Verification-based Dysarthric Speech Intelligibility Assessment using Phonetic Posterior Features.'' \textit{IEEE Signal Processing Letters}, 28:224-228, 2021.
+    
+    \item B. M. Halpern, J. Fritsch, E. Hermann, R. van Son, O. Scharenborg, M. Magimai.-Doss. ``An Objective evaluation framework for pathological speech synthesis.'' \textit{Speech Communication; 14th ITG Conference}, pp. 1-5, 2021.
+    
+    \item N. Cummins, Y. Pan, Z. Ren, J. Fritsch, V. S. Nallanthighal, H. Christensen, et al. ``A Comparison of Acoustic and Linguistics Methodologies for Alzheimer’s Dementia Recognition.'' \textit{In Proc. Interspeech 2020}, pp. 2182-2186.
+    
+    \item J. Fritsch, S. P. Dubagunta, M. Magimai.-Doss. ``Estimating the Degree of Sleepiness by Integrating Articulatory Feature Knowledge in Raw Waveform Based CNNS.'' \textit{In Proc. ICASSP 2020}.
+    
+    \item J. Fritsch, S. Wankerl, E. N\"oth. ``Automatic diagnosis of Alzheimer’s disease using neural network language models.'' \textit{In Proc. ICASSP 2019}.
+    
+    \item P. Klumpp, J. Fritsch, E. N\"oth. ``ANN-based Alzheimer's disease classification from bag of words.'' \textit{Speech Communication; 13th ITG-symposium}, pp. 1-4, 2018.
+\end{enumerate}
+
+\end{document}
