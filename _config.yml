@@ -1,5 +1,7 @@
 name: Julian Fritsch
 description: Machine learning engineer in Lausanne. Production AI and MLOps.
+url: https://jufrit.github.io
+headline: Machine Learning Engineer | PhD | Production AI & MLOps
 markdown: kramdown
 exclude:
   - CLAUDE.md
